@@ -1,0 +1,202 @@
+.topBar {
+    display: flexbox;
+    background-color: #9BC8DB;
+    border-bottom: 4px solid white;
+    height: 75px;
+}
+
+.topNav {
+    display: flex;
+    background-color: black;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    height: 20%;
+    width: 20%;
+}
+.icons {
+    float: right;
+    height: -50%;
+    width: -50%;
+    margin-top: -50px;
+    padding-left: 400px;
+    margin-right: 20px;
+}
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #9bc8db;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: #9bc8db;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  h1 {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #9BC8DB;
+    color: black;
+    font-weight: 500;
+    border: dashed black 3px;
+  }
+
+
+.pics{
+    height: 400px;
+    width: 400px;
+    display: flexbox;
+    justify-content: space-between;
+    float: left;
+    margin-left: 50px;
+}
+/*.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    float: left;
+  }*/
+
+  .link {
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: dotted black 3px;
+    padding-right: 30px;
+    padding-bottom: 250px;
+    background-color: #FEE8F3;
+  }
+
+.favlink {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+  .listlink {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .listlink:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .listlink:visited {
+    color: black;;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .listlink:hover {
+    color: #9BC8DB;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .listlink:active {
+    color: #9BC8DB;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+  /* Greetins.html */
+
+  legend {
+    border: solid 1px;
+    border-color: black;
+    padding: 5px;
+    position: relative;
+    margin-left: 50px;
+    background-color: #9BC8DB;
+    font-weight: 900;
+    color: white;
+
+}
+
+fieldset {
+width: 250px;
+margin: 50px 50px 0 50px;
+background-color: white;
+position: relative;
+
+
+}
+
+input, textarea {
+    background-color: #FEE8F3;
+}
+
+label, button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.gletter {
+    width: 800px;
+    font-size: 20px;
+    float: right;
+    margin-top: -350px;
+    margin-right: 150px;
+}
+
+.letterOne {
+    width: 800px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+    margin-top: -300px;
+    margin-right: 150px;
+}
+
+/* Gallery Page*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 25fr);
+    grid-template-rows: repeat(3, 25vw);
+    grid-gap: 15px;
+}
+.gallery_image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
